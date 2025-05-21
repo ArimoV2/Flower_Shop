@@ -1,0 +1,14 @@
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\bin\Release\net9.0\Flower_Shop.exe
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\bin\Release\net9.0\Flower_Shop.deps.json
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\bin\Release\net9.0\Flower_Shop.runtimeconfig.json
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\bin\Release\net9.0\Flower_Shop.dll
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\bin\Release\net9.0\Flower_Shop.pdb
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.AssemblyInfoInputs.cache
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.AssemblyInfo.cs
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.csproj.CoreCompileInputs.cache
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.dll
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\refint\Flower_Shop.dll
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.pdb
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.genruntimeconfig.cache
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\ref\Flower_Shop.dll
