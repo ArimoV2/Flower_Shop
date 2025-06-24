@@ -12,3 +12,4 @@ C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\refint\Flo
 C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.pdb
 C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.genruntimeconfig.cache
 C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\ref\Flower_Shop.dll
+C:\Users\axoso\Documents\REPOS\PROJECT\Flower_Shop\obj\Release\net9.0\Flower_Shop.sourcelink.json

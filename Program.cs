@@ -4,6 +4,7 @@ using Flower_Shop.Models;
 
 internal class Program {
     
+    private static bool _isDarkTheme = true;
     private static DataStore _store;
 
     private static void Main()
@@ -12,6 +13,9 @@ internal class Program {
         Console.InputEncoding  = Encoding.UTF8;
         Console.Title = "Консольная система: Магазин цветов";
         _store = DataStore.Load();
+        Console.BackgroundColor = ConsoleColor.Black;
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.Clear();
         MenuLoop();
     }
 
@@ -30,6 +34,7 @@ internal class Program {
             Console.WriteLine("7. Добавить цветок");
             Console.WriteLine("8. Добавить продавца");
             Console.WriteLine("9. Редактировать поставщиков у продавца");
+            Console.WriteLine("10. Переключить тему");
             Console.WriteLine("0. Выход");
             Console.Write("Выберите пункт: ");
 
@@ -43,7 +48,8 @@ internal class Program {
                 case "6": AddSupplier(); break;
                 case "7": AddFlower(); break;
                 case "8": AddSeller(); break;
-                case "9": EditSellerSuppliers(); break; 
+                case "9": EditSellerSuppliers(); break;
+                case "10": ToggleTheme(); break;
                 case "0":
                     _store.Save();
                     return;
@@ -134,7 +140,27 @@ internal class Program {
                 Console.WriteLine($"- {f.Name} ({f.Variety})");
         }
     }
-
+    
+    private static void ToggleTheme()
+    {
+        if (_isDarkTheme)
+        {
+            // Светлая тема
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.Black;
+            _isDarkTheme = false;
+        }
+        else
+        {
+            // Тёмная тема
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.White;
+            _isDarkTheme = true;
+        }
+        Console.Clear();
+        Console.WriteLine($"Тема переключена на {(_isDarkTheme ? "тёмную" : "светлую")}.");
+    }
+    
     private static void EditSellerSuppliers()
     {
         Console.Write("ID продавца: ");
